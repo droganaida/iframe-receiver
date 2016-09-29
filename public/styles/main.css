@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #e3ffab;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.content, header, footer {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+}
+header, footer {
+    background: #548020;
+    color: #ffffff;
+}
+
+header a, footer a, header a:hover, footer a:hover {color: #ffffff;}
+
+iframe {
+    margin: 20px auto;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.content p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.8;
+}
